@@ -23,7 +23,7 @@ export const PageModal = ({icons, components}) => {
             <ul className={ulStyles}>{icons.map(i =>
                 <li key={i.name} onClick={() => setToggle(i.name)}>
                     <div className="fs-50px txt-c"><i.icon /></div>
-                    <div className="txt-c mt--05em" >{i.name}</div>
+                    <div className="txt-c mt--1em" >{i.name}</div>
                 </li>
             )}</ul>
             
