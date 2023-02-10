@@ -10,7 +10,7 @@
     }
 
     .potrait > section{
-        height: calc(100vh - var(--y));
+        height: calc(100% - var(--y));
     }
  
     .potrait .page{

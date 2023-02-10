@@ -103,7 +103,7 @@ export const withLayout = (Component, pageName) => props => {
         )
     }
 
-    const div1Styles = 'landscape potrait por w-100vw h-100vh '
+    const div1Styles = 'landscape potrait pof w-100pc h-100pc'
 
     const headerStyles = `
         poa t-0 h-60px w-100pc p-03em pl-1em flex ali-c 
