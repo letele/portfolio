@@ -58,7 +58,7 @@ export function CommandLine(){
         )
     }
 
-    const divStyles = "bg-00000093 h-100pc w-100pc p-05em poa z-1 c-fff lucida fs-11pt"
+    const divStyles = "bg-00000093 h-100pc w-100pc p-05em pof z-1 c-fff lucida fs-11pt"
 
     const headerStyles = "w-100pc flex ali-c c-4fce2f"
 

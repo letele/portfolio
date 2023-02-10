@@ -22,7 +22,7 @@ export function MovingIcons(){
 
     const speed = (t) => Math.round(length*t/x)
     const timeX = [
-        [10,19],[16,18],[13,20],[15,21],[15,21],
+        [12,19],[16,18],[13,20],[15,21],[15,24],
         [16,27],[13,20],[16,25],[15,22]
     ]
     const timeY = timeX.map(i => [i[1], i[0]])

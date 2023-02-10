@@ -15,7 +15,7 @@
  
     .potrait .page{
         position: absolute;
-        height:calc(98vh - var(--y));
+        height:calc(100% - 2vh);
         width: calc(100vw -  2*var(--x));
         left: var(--x);
         top: 1vh;
