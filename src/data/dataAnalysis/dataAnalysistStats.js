@@ -6,5 +6,5 @@ export const dataAnalystStats = [
     {color:"#130654",name:"Pandas", rate:0.75},
     {color:"#336791",name:"PostgreSql", rate:0.62},
     {color:"#EE4C2C",name:"Pytorch", rate:0.30},
-    {color:"#2165B6",name:"R", rate:0.27},
+    {color:"#2165B6",name:"R", rate:0.70},
 ]

@@ -6,7 +6,7 @@ export const commands = {
         comp:About,
         type:"log",
     },
-    analyst: {
+    data: {
         info:"Redirects to the data analyst page.",
         comp: () => <Redirect route="Data analysis"/>,
         route:"/data_analyst",
@@ -27,7 +27,7 @@ export const commands = {
         info:"Clears the output screen.",
         type:"exe",
     },
-    documents:{
+    docs:{
         info:"Redirects to the documents page.",
         comp:() => <Redirect route="Documents"/>,
         route:"/documents",
