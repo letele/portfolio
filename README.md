@@ -1,10 +1,10 @@
-# My portfolio
+## My portfolio
 
 ![](https://badgen.net/badge/🚀/blazinglyFast/blue)
 ![](https://badgen.net/badge/🌱/holisticApproach/green)
 ![](https://badgen.net/badge/💥/gameChanger/red)
    
-## Project setup
+### Project setup
 Bootstrapped with ⚡ by ![Create React App](https://img.shields.io/badge/react-%2320232a.svg?style=plastic&logo=react&logoColor=%2361DAFB)
 
 Developed with 💪 by ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)

@@ -17,11 +17,11 @@ export const Packages = () => {
     }
 
     const li1Styles = `
-        nunitosans w-330px h-204px p-05em bd-afaeae br-5px
-        m-05em float-l bg-cccccc54
+        w-330px h-204px p-05em bd-afaeae br-5px
+        m-05em float-l bg-cccccc54 fs-10pt
     `
 
-    const ALLPackages = () => {
+    const AllPackages = () => {
         return ( <ul>{npmData.objects.map(i => {
             const {package:pack} = i
             
@@ -42,10 +42,10 @@ export const Packages = () => {
 
                     <hr/>
                     
-                    <section className="mt-05em fs-10pt">
+                    <section className="mt-05em">
                         <p>{pack.description}</p>
                         
-                        <h4 className="mt-1em">Install</h4>
+                        <h4 className="mt-05em">Install</h4>
                         <p className="bd-afaeae p-03em w-fcnt ml-05em">
                             {copied!==str && <code>{str + ' '}</code>} 
                             {copied!==str && <code  
@@ -91,7 +91,7 @@ export const Packages = () => {
     }
 
     const Loading = () => 
-    <div className="nunitosans m-05em">Loading packages from npm...</div>
+    <div className=" m-05em">Loading packages from npm...</div>
     
-    return npmData ? <ALLPackages/>: <Loading />
+    return npmData ? <AllPackages/>: <Loading />
 }

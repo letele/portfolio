@@ -5,18 +5,15 @@ import { notebooksData } from "../../data"
 
  export const Notebooks = () => {
 
-    const [toggled, setToggled] = useState([])
+    const [toggled, setToggled] = useState(null)
 
-    const incl = val => toggled.includes(val)
-    
-    const handleClick = val => incl(val) ?
-    setToggled(toggled.filter(i=> i!==val)) : 
-    setToggled([...toggled, val]) 
-    
+    const handleClick = val =>
+    val === toggled ? setToggled(null) : setToggled(val)  
+
     const spanStyles ="lucida mr-03em fs-9pt"
 
     const articleStyles =`
-        bg-f5f5f5 bd-afaeae nunitosans mt-05em ml-2em p-05em fs-15px w-600px
+        bg-f5f5f5 bd-afaeae mt-05em ml-2em p-05em fs-11pt w-600px
         maxw-80vw
     `
     const div2Styles =`
@@ -32,17 +29,17 @@ import { notebooksData } from "../../data"
                     
                     <div className="flex ali-c">
                         <span className={`
-                            ${spanStyles} ${incl(i.name)?'c-16a3e4':'c-acacac'} 
+                            ${spanStyles} ${i.name === toggled?'c-16a3e4':'c-acacac'} 
                         `}>
-                            [{incl(i.name)? toggled.indexOf(i.name) +1  :" "}]:
+                            [{i.name === toggled ? "*" :" "}]:
                         </span>
                         <h4 
-                            className="c-arrow nunitosans"
+                            className="c-arrow"
                             onClick = {() => handleClick(i.name)}
                         >{i.name}</h4>
                     </div>
                     
-                    {incl(i.name) && 
+                    {i.name === toggled && 
                     <article className={articleStyles}>
                         {i.description.map(des => 
                             <p key={des} className="mb-05em">{des}</p>

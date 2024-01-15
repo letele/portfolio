@@ -3,7 +3,7 @@ import {Github, Firebase,React as IcoReact} from "@letele/svg-icons";
 export const Templates = () => {
     
     const div1Styles = `
-        nunitosans w-330px h-204px bd-ff69b4 br-5px m-05em por 
+        w-330px h-204px bd-ff69b4 br-5px m-05em por isolate 
     `
     
     const circleStyles = `
