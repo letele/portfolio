@@ -1,17 +1,42 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4e7594a4.css",
-    "main.js": "/portfolio/static/js/main.1e48d882.js",
+    "main.css": "/portfolio/static/css/main.6bc4d8b0.css",
+    "main.js": "/portfolio/static/js/main.67b81754.js",
+    "static/media/letele.jpg": "/portfolio/static/media/letele.adf9f249ec39ca41d6df.jpg",
     "static/media/hearts.gif": "/portfolio/static/media/hearts.af2a4a904a7198719c43.gif",
+    "static/media/shades.jpg": "/portfolio/static/media/shades.e2533ec4c6aa574391f3.jpg",
+    "static/media/pere.jpg": "/portfolio/static/media/pere.fff2f45ab29a889ad327.jpg",
+    "static/media/village.jpg": "/portfolio/static/media/village.fedfcbf75b7b7a71fc26.jpg",
     "static/media/svgicons.gif": "/portfolio/static/media/svgicons.5e4c4d22dcb99461c494.gif",
+    "static/media/palama.jpg": "/portfolio/static/media/palama.36347386c88c3ed88bf2.jpg",
+    "static/media/mokhele.jpg": "/portfolio/static/media/mokhele.c87143ad4951ba70cc6b.jpg",
+    "static/media/boys.jpg": "/portfolio/static/media/boys.fca66af3b8edd9c99066.jpg",
+    "static/media/cat.jpg": "/portfolio/static/media/cat.5cc36649d2482523296d.jpg",
     "static/media/cfop.gif": "/portfolio/static/media/cfop.7eccc95d1db396046ce2.gif",
-    "static/media/avatar.jpg": "/portfolio/static/media/avatar.6bb87f5f30ccbf48fcc2.jpg",
+    "static/media/dj.jpg": "/portfolio/static/media/dj.5970ea58b85030ce7d69.jpg",
+    "static/media/manyora.jpg": "/portfolio/static/media/manyora.b14e18982874337041fc.jpg",
+    "static/media/urban.jpg": "/portfolio/static/media/urban.7539818ee9080602c8f1.jpg",
+    "static/media/tmountain.jpg": "/portfolio/static/media/tmountain.451516d495419b91dd5e.jpg",
+    "static/media/cozy.jpg": "/portfolio/static/media/cozy.6a4cd43dec78a49a9da6.jpg",
+    "static/media/work.jpg": "/portfolio/static/media/work.9639fa6bba43feb174bb.jpg",
+    "static/media/fields.jpg": "/portfolio/static/media/fields.23c1a39fe81b7e5b02c7.jpg",
+    "static/media/bridge.jpg": "/portfolio/static/media/bridge.e82180b1bca58fa665e0.jpg",
+    "static/media/valley.jpg": "/portfolio/static/media/valley.77b6138c9a2256a33900.jpg",
+    "static/media/piano.jpg": "/portfolio/static/media/piano.75598ea775b539a6e52c.jpg",
+    "static/media/zidane.jpg": "/portfolio/static/media/zidane.d43c881c2f3a7b22691f.jpg",
+    "static/media/water.jpg": "/portfolio/static/media/water.b8fede6df981e055772a.jpg",
+    "static/media/art.jpg": "/portfolio/static/media/art.f76745d14da0928e9e29.jpg",
+    "static/media/bana.jpg": "/portfolio/static/media/bana.75f02206c0e71693debb.jpg",
+    "static/media/chopper.png": "/portfolio/static/media/chopper.f8717ea1a064c8d6f20e.png",
+    "static/media/linlin.jpg": "/portfolio/static/media/linlin.b79688ecf2110ae64840.jpg",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.5f85ee3288e093909d54.jpg",
+    "static/media/Segoe UI.woff": "/portfolio/static/media/Segoe UI.293e692f583af77a347b.woff",
     "index.html": "/portfolio/index.html",
-    "main.4e7594a4.css.map": "/portfolio/static/css/main.4e7594a4.css.map",
-    "main.1e48d882.js.map": "/portfolio/static/js/main.1e48d882.js.map"
+    "main.6bc4d8b0.css.map": "/portfolio/static/css/main.6bc4d8b0.css.map",
+    "main.67b81754.js.map": "/portfolio/static/js/main.67b81754.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e7594a4.css",
-    "static/js/main.1e48d882.js"
+    "static/css/main.6bc4d8b0.css",
+    "static/js/main.67b81754.js"
   ]
 }
