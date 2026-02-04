@@ -221,19 +221,6 @@ document.addEventListener('DOMContentLoaded',  () =>{
         </div>    
     `).join("")
 
-    // document.getElementById("projects").innerHTML = projects.map(p => `
-    //     <div class="project-item">
-    //         <div class="flex jus-btwn">
-    //             <p> ${p.title} ${p.link ? `: <a  href="${p.link}" target="_blank" rel="noopener noreferrer">link</a>` : ""
-    //     } </p>
-    //             <div>${p.duration}</div>
-    //         </div>
-    //         <ul class="project-list">
-    //             ${p.description.map(desc => `<li>${desc}</li>`).join("")}
-    //         </ul>
-    //     </div>
-    // `).join("")
-
     // Work
     const workExperience = [
         {
@@ -307,7 +294,7 @@ document.addEventListener('DOMContentLoaded',  () =>{
     function toggleNav(show) {
         nav.style.visibility = show ? 'visible' : 'hidden'
         nav.style.opacity = show ? '1' : '0'
-        nav.style.transform = show ? 'translateY(0)' : 'translateY(10px)'
+        nav.style.transform = show ? 'translateY(0)' : 'translateY(-10px)'
         nav.style.pointerEvents = show ? 'auto' : 'none'
 
         menuBtn.querySelector('img').src = `imgs/${show ? "close-icon": "info-icon"}.svg`
