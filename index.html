@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>letele</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body id="portfolio" class="times ov-hidden">
+
+    <header class="flex align-c jus-btwn">
+        <div class="flex align-c jus-c gap-05">
+            <img id="profile-pic" src="imgs/profile_pic.png" alt="Profile picture">
+            <div>Letele Motebang</div>
+        </div>
+        <div>
+            <a href="https://github.com/letele/portfolio" target="_blank" rel="noopener noreferrer">
+                <img id="github-logo" src="imgs/GitHub_Invertocat_Black.svg" alt="Profile picture">
+            </a>
+        </div>
+    </header>
+
+    <nav class="flex-col gap-1 ovy-auto">
+        <div>
+            <h4 style="margin-bottom: 0.3em;">Contacts</h4>
+            <ul style="margin-left: 1em;" class="flex-col gap-05">
+                <li class="flex align-c gap-05">
+                    <img class="contact-icons" src="imgs/house-window-icon.svg" alt="Home Icon">
+                    <div>Ha Nelese, Maseru, Lesotho.</div>
+                </li>
+                <li class="flex align-c gap-05">
+                    <img class="contact-icons" src="imgs/envelope-line-icon.svg" alt="Envelope Icon">
+                    <div>mtletele@gmail.com</div>
+                </li>
+                <li class="flex align-c gap-05">
+                    <img class="contact-icons" src="imgs/phone-ringing-icon.svg" alt="Phone Icon">
+                    <div>(+266) 59062146</div>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 style="margin-bottom: 0.3em;">Education</h4>
+            <ul style="margin-left: 1em;">
+                <a href="https://science.uct.ac.za/department-statistics/study-postgraduate-programmes/honours"
+                    target="_blank" rel="noopener noreferrer">
+                    <li class="flex align-c gap-05">
+                        <img class="education-logo" src="imgs/uct-logo.svg" alt="UCT Icon">
+                        <div>BCom Honours (2025): <br />Statistics & Data Science </div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <h4>Skills</h4>
+            <div id="analysis-skills" style=" width: 210px; margin-bottom: 1em;"></div>
+            <div id="web-dev-skills" style="width: 210px;"></div>
+        </div>
+    </nav >
+    <div id="menu-button">
+        <img src="imgs/info-icon.svg" alt="Menu Icon">
+    </div>
+    <main id="main-content" class="grid-row-auto-1fr gap-05 ovy-auto">
+        <ul class="flex gap-15">
+            <li class="tab-link" data-tab="projects">Projects</li>
+            <li class="tab-link" data-tab="work">Work Experience</li>
+        </ul>
+        <div id="projects" class="tab-content ovy-auto"></div>
+        <div id="work" class="tab-content ovy-auto"></div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

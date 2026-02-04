@@ -1,0 +1,284 @@
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.grid-row-auto-1fr {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.fgrow-1{
+    flex-grow: 1;
+}
+
+.align-c{
+    align-items: center;
+}
+.jus-c{
+    justify-content: center;
+}
+.jus-btwn{
+    justify-content: space-between;
+}
+.jus-even{
+    justify-content: space-evenly;
+}
+
+.gap-05 {
+    gap: 0.5em;
+}
+
+.gap-1 {
+    gap: 1em;
+}
+
+.gap-15 {
+    gap: 1.5em;
+}
+
+.gap-2 {
+    gap: 2em;
+}
+
+
+.ovy-auto{
+    overflow-y: auto;
+}
+.ov-hidden{
+    overflow: hidden;
+}
+
+
+.mb-05em{
+  margin-bottom: 0.3em;
+}
+.ml-1em {
+  margin-left: 1em;
+}
+.ml-2em{
+  margin-left: 2em;
+}
+.ml-25em{
+  margin-left: 2.5em;
+}
+
+.p-05em{
+    padding: 0.5em;
+}
+.pl-1em{
+    padding-left:1em;
+}
+
+
+.times{
+  font-family: 'Times New Roman', Times, serif;
+}
+.lucida{
+  font-family: "Lucida Console",monospace;
+}
+.line-h-15{
+    line-height: 1.3;
+}
+.fs-10pt{
+    font-size: 10pt;
+}
+.ws-nowrap{
+    white-space: nowrap;
+}
+
+.list-decimal{
+    list-style-type: decimal;
+}
+.list-disc{
+    list-style-type: disc;
+}
+
+
+#profile-pic{
+    height: 48px;
+    width: 48px;
+    border: 1px solid #5f5f5f;
+    border-radius: 50%;
+}
+
+#github-logo{
+    height: 24px;
+    width: 24px;
+}
+
+.tab-link:hover{
+    cursor: pointer;
+}
+.active-tab-link{
+    text-decoration: underline;
+}
+
+.project-item{
+    max-width: 750px;
+    margin-bottom: 0.75em;
+    padding: 0.3em;
+}
+
+.project-list{
+    padding-left: 2.1em;
+    padding-top: 0.3em;
+}
+.project-list li{
+    list-style-type: disc;
+    margin-bottom: 0.1em;
+}
+
+@media screen and (max-width: 599px){
+    #portfolio {
+        position: relative;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
+    header{
+        padding: 0.3em 1em;
+    }
+    #profile-pic{
+        height: 60px;
+        width: 60px;
+    }
+
+    #menu-button{
+        position: absolute;
+        left: 1.5em;
+        bottom: 1.5em;
+        background: #cacaca;
+        border-radius: 50%;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.15s ease,
+    }
+    #menu-button:active {
+        transform: scale(0.9);
+    }
+    #menu-button img{
+        width: 15px;
+        height: 15px;
+        filter: invert(1); 
+    }
+
+    nav {
+        background: #f3f3f3;
+        border: 1px solid #b9b9b9;
+        position: absolute;
+        bottom: 5em;
+        left: 1.5em;
+        padding: 1em;
+        width: 80%;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(10px);
+        pointer-events: none;
+        transition:
+            opacity 0.25s ease,
+            transform 0.25s ease,
+            visibility 0.25s ease;
+    }
+    .contact-icons{
+        height: 18px;
+        width: 18px;
+    }
+    .education-logo{
+        height: 48px;
+        width: 48px;
+    }
+
+    .skills-logo{
+        border: 1px solid #000;
+        border-top: none;
+    }
+    .skill-icon img{
+        height: 18px;
+        width: 18px;
+    }
+
+    main {
+        margin:0.3em 1em;
+    }
+    .tab-content{
+        padding-bottom: calc(30px + 3em);
+    }
+
+}
+
+@media screen and (min-width: 600px){
+    #portfolio {
+        position: relative;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+            "header header"
+            "nav main";
+    }
+    
+    header{
+        grid-area: header;
+        padding: 0.3em 5em;
+    }
+    
+    nav {
+        grid-area: nav;
+        margin-left: 5em;
+        padding-top: 0.5em;
+    }
+    
+    #menu-button{
+        display: none;
+    }
+    .contact-icons{
+        height: 18px;
+        width: 18px;
+    }
+    .education-logo{
+        height: 48px;
+        width: 48px;
+    }
+
+    .skills-logo{
+        border: 1px solid #000;
+        border-top: none;
+    }
+    .skill-icon img{
+        height: 18px;
+        width: 18px;
+    }
+
+    main {
+        grid-area: main;
+        margin-left: 1em;
+        margin-right: 5em;
+    }
+  
+}
+
